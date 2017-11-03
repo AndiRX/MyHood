@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B0A2F501FA679BE00FE5BDD /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A2F4F1FA679BE00FE5BDD /* PostCell.swift */; };
+		4B0F4EFC1FAC6DD300D1EE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F4EFA1FAC6DD300D1EE14 /* Main.storyboard */; };
 		4BC5DD1C1FA71FB600572CEF /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5DD1B1FA71FB600572CEF /* AddPostVC.swift */; };
 		4BC5DD1F1FA72E6200572CEF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5DD1E1FA72E6200572CEF /* DataService.swift */; };
 		4BF4D6711FA663DC00CEAB84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF4D6701FA663DC00CEAB84 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		4B0A2F4F1FA679BE00FE5BDD /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4B0F4EFB1FAC6DD300D1EE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BC5DD1B1FA71FB600572CEF /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 		4BC5DD1E1FA72E6200572CEF /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		4BF4D66D1FA663DC00CEAB84 /* MyHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 				4BF4D6701FA663DC00CEAB84 /* AppDelegate.swift */,
 				4BF4D6721FA663DC00CEAB84 /* ViewController.swift */,
 				4BF4D6771FA663DC00CEAB84 /* Assets.xcassets */,
+				4B0F4EFA1FAC6DD300D1EE14 /* Main.storyboard */,
 				4BF4D6791FA663DC00CEAB84 /* LaunchScreen.storyboard */,
 				4BF4D67C1FA663DC00CEAB84 /* Info.plist */,
 			);
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0F4EFC1FAC6DD300D1EE14 /* Main.storyboard in Resources */,
 				4BF4D67B1FA663DC00CEAB84 /* LaunchScreen.storyboard in Resources */,
 				4BF4D6781FA663DC00CEAB84 /* Assets.xcassets in Resources */,
 			);
@@ -188,6 +192,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4B0F4EFA1FAC6DD300D1EE14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B0F4EFB1FAC6DD300D1EE14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		4BF4D6791FA663DC00CEAB84 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

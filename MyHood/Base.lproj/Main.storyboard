@@ -220,11 +220,6 @@
                                     <action selector="makePostBtnPressed:" destination="ShS-Au-OzV" eventType="touchUpInside" id="Teb-sc-jhL"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kVM-eY-Zbx">
-                                <rect key="frame" x="67" y="501" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.62336208680000005" green="0.75022687610000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -250,7 +245,6 @@
                     <connections>
                         <outlet property="descField" destination="ccb-50-Lg0" id="z3I-7O-lDR"/>
                         <outlet property="postImg" destination="Eib-59-jMl" id="4mE-VL-lLr"/>
-                        <outlet property="testImage" destination="kVM-eY-Zbx" id="fFt-ia-2En"/>
                         <outlet property="titleField" destination="ZAi-BA-fDn" id="BM8-1h-yuR"/>
                     </connections>
                 </viewController>
